@@ -203,7 +203,7 @@ const LeftPanel = () => {
         {STATS.map((stat, i) => (
           <div key={i} className="bg-[#1A1A1A] border border-[#2A2A2A] rounded-3xl p-4 flex flex-col justify-center">
             <h2 className="text-3xl font-bold text-white mb-1">{stat.value}</h2>
-            <p className="text-[9px] text-gray-400 uppercase tracking-widest font-semibold leading-tight">{stat.label}</p>
+            <p className="text-[11px] text-gray-400 uppercase tracking-wide font-semibold leading-tight">{stat.label}</p>
           </div>
         ))}
       </motion.div>
@@ -231,7 +231,7 @@ const RightPanel = () => {
           SOFTWARE<br />
           <span className="text-[#0077B6]">ENGINEER</span>
         </h1>
-        <p className="mt-6 text-[#D6D6D6] text-xl md:text-xl max-w-xl leading-relaxed text-pretty">
+        <p className="mt-6 text-[#D6D6D6] text-lg sm:text-xl max-w-xl leading-relaxed text-pretty">
           Dynamic professional with a foundation in software engineering and a strong focus on collaboration and adaptability. Proven ability to develop innovative solutions and manage projects effectively, leveraging skills in Python and React to drive results.
         </p>
       </motion.div>
@@ -258,13 +258,13 @@ const RightPanel = () => {
               key={i}
               variants={fadeInUp}
               whileHover={{ scale: 1.02, borderColor: '#0077B6' }}
-              className="bg-[#03045E] border border-[#03045E]/50 rounded-[32px] p-7 flex flex-col md:flex-row gap-6 items-center justify-between group cursor-pointer transition-colors"
+              className="bg-[#03045E] border border-[#03045E]/50 rounded-[32px] p-6 flex flex-row items-center justify-between gap-4 group cursor-pointer transition-colors"
             >
-              <div className="px-2">
+              <div className="px-2 flex-1">
                 <h3 className="text-2xl sm:text-3xl font-bold text-[#D6D6D6] mb-2">{project.title}</h3>
                 <p className="text-[#D6D6D6]/80 text-base sm:text-lg">{project.subtitle}</p>
               </div>
-              <div className="size-14 shrink-0 rounded-full border border-[#0077B6]/30 flex items-center justify-center text-[#D6D6D6]/80 group-hover:text-white group-hover:bg-[#0077B6] transition-all mr-2">
+              <div className="size-14 shrink-0 rounded-full border border-[#0077B6]/30 flex items-center justify-center text-[#D6D6D6]/80 group-hover:text-white group-hover:bg-[#0077B6] transition-all">
                 <ArrowUpRight className="w-6 h-6" />
               </div>
             </motion.a>
@@ -289,9 +289,9 @@ const RightPanel = () => {
           {EXPERIENCES.map((exp, i) => (
             <motion.div key={i} variants={fadeInUp} className="relative group">
               <div className="absolute -left-[41px] top-2 w-4 h-4 rounded-full bg-[#03045E] border-2 border-[#0077B6]/50 group-hover:border-[#0077B6] group-hover:bg-[#0077B6] transition-colors"></div>
-              <h3 className="text-2xl sm:text-3xl font-bold text-[#D6D6D6] mb-4">{exp.company}</h3>
-              <p className="text-[#D6D6D6]/80 text-base sm:text-lg leading-relaxed mb-6 max-w-xl text-pretty">{exp.role}</p>
-              <p className="text-sm sm:text-base text-[#0077B6] font-medium tracking-wide uppercase">{exp.period}</p>
+              <h3 className="text-3xl font-bold text-[#D6D6D6] mb-4">{exp.company}</h3>
+              <p className="text-[#D6D6D6]/80 text-lg leading-relaxed mb-6 max-w-xl text-pretty">{exp.role}</p>
+              <p className="text-base text-[#0077B6] font-medium tracking-wide uppercase">{exp.period}</p>
             </motion.div>
           ))}
         </div>
@@ -322,8 +322,8 @@ const RightPanel = () => {
                 <img src={skill.icon} alt={skill.name} className="w-10 h-10 object-contain" referrerPolicy="no-referrer" />
               </div>
               <div>
-                <h3 className="text-xl sm:text-2xl font-bold text-[#D6D6D6] mb-1">{skill.name}</h3>
-                <p className="text-[#D6D6D6]/70 text-sm sm:text-base font-medium">{skill.desc}</p>
+                <h3 className="text-2xl font-bold text-[#D6D6D6] mb-1">{skill.name}</h3>
+                <p className="text-base text-[#D6D6D6]/70 font-medium">{skill.desc}</p>
               </div>
             </motion.div>
           ))}
@@ -349,11 +349,11 @@ const RightPanel = () => {
               key={i}
               variants={fadeInUp}
               whileHover={{ scale: 1.02, borderColor: '#0077B6' }}
-              className="bg-[#03045E] border border-[#03045E]/50 rounded-3xl p-7 sm:p-8 flex flex-col md:flex-row md:justify-between md:items-center gap-4 group cursor-pointer transition-colors"
+              className="bg-[#03045E] border border-[#03045E]/50 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row md:justify-between md:items-center gap-4 group cursor-pointer transition-colors"
             >
               <div>
-                <h3 className="text-xl sm:text-2xl font-bold text-[#D6D6D6] mb-2 text-balance">{edu.title}</h3>
-                <p className="text-[#D6D6D6]/80 text-base sm:text-lg">{edu.inst}</p>
+                <h3 className="text-2xl font-bold text-[#D6D6D6] mb-2 text-balance">{edu.title}</h3>
+                <p className="text-[#D6D6D6]/80 text-lg">{edu.inst}</p>
               </div>
               <div className="md:text-right">
                 <p className="text-[#0077B6] font-bold uppercase tracking-wide text-sm bg-[#0077B6]/10 px-4 py-2 rounded-full inline-block">{edu.date}</p>
@@ -385,8 +385,8 @@ const RightPanel = () => {
           className="bg-[#0077B6] hover:bg-[#0077B6]/90 text-white font-bold rounded-[28px] p-7 sm:p-8 flex items-center justify-between gap-4 group transition-all shadow-xl"
         >
           <div className="flex flex-col gap-2">
-            <span className="text-2xl sm:text-3xl font-black leading-tight text-balance">Ready to start a project?</span>
-            <span className="text-[#D6D6D6] font-medium text-base sm:text-lg">Send me a message on WhatsApp.</span>
+            <span className="text-3xl font-black leading-tight text-balance">Ready to start a project?</span>
+            <span className="text-[#D6D6D6] font-medium text-lg">Send me a message on WhatsApp.</span>
           </div>
           <div className="bg-white text-[#0077B6] p-4 sm:p-5 rounded-full shrink-0 group-hover:rotate-12 transition-transform">
             <svg viewBox="0 0 24 24" className="w-8 h-8 fill-current">
