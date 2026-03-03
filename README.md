@@ -4,7 +4,9 @@
 
 ### Full-Stack Software Engineer · Available for Hire
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Muhammads-Portfolio-0077B6?style=for-the-badge&logo=vercel&logoColor=white)](https://muhammad-al-amin-ibrahim.vercel.app/)
+```markdown
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Me-0077B6?style=for-the-badge&logo=vercel&logoColor=white)](https://muhammad-al-amin-ibrahim.vercel.app/)
+```
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ibrahim-083639260/)
 [![GitHub](https://img.shields.io/badge/GitHub-Mastermoh0-03045E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mastermoh0)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Message_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+2347082331550?text=Hello%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect.)
