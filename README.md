@@ -81,8 +81,8 @@ I'm actively looking for my next opportunity. If you're building something great
 |---------|------|
 | 💬 WhatsApp | [+230 5516 1082 / +234 7082331550](https://wa.me/+2347082331550?text=Hello%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect.) |
 | 📧 Email | [mkmdalamin2005@gmail.com](mailto:mkmdalamin2005@gmail.com) |
-| 🌐 Portfolio | [moh-studio.vercel.app](https://moh-studio.vercel.app/) |
-| 💼 LinkedIn | [linkedin.com/in/muhammad-ibrahim](https://www.linkedin.com/in/muhammad-ibrahim-083639260/) |
+| 🌐 Portfolio | [muhammad-al-amin-ibrahim.vercel.app](https://muhammad-al-amin-ibrahim.vercel.app/) |
+| 💼 LinkedIn | [linkedin.com/in/muhammad-al-amin-ibrahim](https://www.linkedin.com/in/muhammad-al-amin-ibrahim/) |
 
 ---
 
